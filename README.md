@@ -6,22 +6,22 @@ This project analyzes client subscription behavior for term deposits, using mach
 ---
 
 ## **Workflow Overview**
-### **Milestone 1: Exploratory Data Analysis (EDA) & Preprocessing**
+### **Exploratory Data Analysis (EDA) & Preprocessing**
 - **Data Inspection:** Examined missing values, feature distributions, and potential correlations.
 - **Preprocessing:** Handled missing values, encoded categorical variables, and standardized numerical features.
 - **EDA Insights:** Identified key patterns influencing subscriptions, including job type, education, and previous campaign success.
 
-### **Milestone 2: Feature Transformation & Model Training**
+### **Feature Transformation & Model Training**
 - **Feature Engineering:** Applied scaling (`StandardScaler`) and categorical encoding (`OneHotEncoder`).
 - **Model Training:** Built predictive models using **Logistic Regression, Random Forest, and XGBoost**.
 - **Hyperparameter Tuning:** Improved model performance through grid search optimization.
 
-### **Milestone 3: Model Evaluation & Comparison**
+### **Model Evaluation & Comparison**
 - **Evaluation Metrics:** Accuracy, precision, recall, F1-score, and ROC-AUC.
 - **Cross-Validation:** Ensured robust generalization of models across different dataset splits.
 - **Best Performing Model:** **XGBoost**, with a strong balance of accuracy (`0.8897`), precision (`0.6205`), recall (`0.2218`), and AUC (`0.7671`).
 
-### **Milestone 4: Interpretation & Final Report**
+### **Interpretation & Final Report**
 - **Feature Importance:** Identified significant predictors like job type, past campaign success, and balance.
 - **Error Analysis:** Examined misclassified cases to refine strategies.
 - **Final Deliverable:** A structured report summarizing findings, insights, and recommendations.
